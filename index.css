@@ -116,57 +116,58 @@ h2{
     cursor: pointer;
 }
 
-.section-works{
-   text-align: center;
-   padding: 20px;
-     max-width: 800px;
+.section-works {
+    max-width: 800px;
     margin: auto;
-    
-}
-
-.card{
+    text-align: center;
+    padding: 20px;
+   
+  }
+  
+  .card {
     display: flex;
-
-}
-
-.card div img{
+  }
+  
+  .card div img {
     width: 250px;
     height: 180px;
     object-fit: contain;
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px orange;
-}
-
-.card div img:hover{
+  }
+  .card div img:hover{
     box-shadow: 5px 5px 5px 5px red;
-    transition: 0.9s;
-}
-
-.text-works{
+    transition: 0.8s;
+  }
+  
+  .text-works {
     font-size: 2em;
     margin-bottom: 30px;
     font-weight: bold;
-    text-transform:  uppercase;
-}
-
-.container-detail{
-    margin-left: 20px;
-    text-align: center;
-}
-
-.container-detail h2{
-    border: solid;
     text-transform: uppercase;
-    padding: 10px;
-}
-
-.container-detail p{
+  
+  }
+  
+  .container-detail {
+    text-align: center;
+    margin-left: 20px;
+  }
+  
+  .container-detail p {
     margin-top: 20px;
     padding: 15px;
-    width: 100%;
     font-size: 30px;
-}
-
-.link-portafolio{
+  }
+  
+  .container-detail h2 {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: red;
+    border-radius: 10px;
+  }
+  
+  .link-portafolio{
+   
     text-decoration: none;
-}
+  }
