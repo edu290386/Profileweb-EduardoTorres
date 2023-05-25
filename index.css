@@ -51,6 +51,8 @@ body {
     font-size: 2em;
     font-weight: bold;
     color: #FFFFFF;
+    border-bottom: #5C5659;
+    margin-bottom: 10px;
 }
 
 #titulo {
@@ -112,4 +114,59 @@ h2{
     color: #FFFFFF;
     box-sizing: border-box ;
     cursor: pointer;
+}
+
+.section-works{
+   text-align: center;
+   padding: 20px;
+     max-width: 800px;
+    margin: auto;
+    
+}
+
+.card{
+    display: flex;
+
+}
+
+.card div img{
+    width: 250px;
+    height: 180px;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px orange;
+}
+
+.card div img:hover{
+    box-shadow: 5px 5px 5px 5px red;
+    transition: 0.9s;
+}
+
+.text-works{
+    font-size: 2em;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform:  uppercase;
+}
+
+.container-detail{
+    margin-left: 20px;
+    text-align: center;
+}
+
+.container-detail h2{
+    border: solid;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.container-detail p{
+    margin-top: 20px;
+    padding: 15px;
+    width: 100%;
+    font-size: 30px;
+}
+
+.link-portafolio{
+    text-decoration: none;
 }
